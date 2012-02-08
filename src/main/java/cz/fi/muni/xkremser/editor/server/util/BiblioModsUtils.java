@@ -2612,16 +2612,6 @@ public final class BiblioModsUtils {
                         }
                     }
                 }
-                if (valueClient.getText() != null && valueClient.getText().size() > 0) {
-                    for (String strVal : valueClient.getText()) {
-                        if (strVal != null) {
-                            UnstructuredText text = factory.createUnstructuredText();
-                            text.setValue(strVal);
-                            value.getDetailOrExtentOrDate().add(text);
-                        }
-
-                    }
-                }
                 if (valueClient.getExtent() != null) {
                     for (ExtentTypeClient extentClient : valueClient.getExtent()) {
                         if (extentClient != null) {
