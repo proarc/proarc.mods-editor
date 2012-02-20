@@ -954,6 +954,7 @@ public final class BiblioModsUtils {
         classificationTypeClient.setScript(classificationType.getScript());
         classificationTypeClient.setTransliteration(classificationType.getTransliteration());
         classificationTypeClient.setAuthority(classificationType.getAuthority());
+        classificationTypeClient.setValue(classificationType.getValue());
         return classificationTypeClient;
     }
 
