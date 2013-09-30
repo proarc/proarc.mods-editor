@@ -431,7 +431,7 @@ public class ModsTab
         }
 
         final TabSet topTabSet = new TabSet();
-        topTabSet.setTabBarPosition(Side.TOP);
+        topTabSet.setTabBarPosition(Side.BOTTOM);
         topTabSet.setWidth100();
         final List<RelatedItemTypeClient> relatedItems =
                 modsTypeClient_ == null ? null : modsTypeClient_.getRelatedItem();
